@@ -7,8 +7,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./alcolici.component.css']
 })
 export class AlcoliciComponent implements OnInit {
-  alcolici: any = [];
-  alcool: any;
+  alcolici:any = [];
+  alcool:any;
   errors:any;
   message:any
   constructor(private api: ApiService,private router: Router) { }
