@@ -1,0 +1,37 @@
+<div class="containercarosello">
+  <div class="container">
+      <div class="row">    
+            <div class="col-8" id="carosello">
+                <ngb-carousel *ngIf="images">
+                  <ng-template ngbSlide>
+                    <div class="picsum-img-wrapper">
+                      <img src="./assets/birar.jpg" alt="Random first slide">
+                    </div>
+                    <div class="carousel-caption">
+                      <p>"Se succede qualcosa di brutto si beve per dimenticare; se succede qualcosa di bello si beve per festeggiare; e se non succede niente si beve per far succedere qualcosa"</p>
+                      <h4>Charles Bukowski</h4>
+                    </div>
+                  </ng-template>
+                  <ng-template ngbSlide>
+                    <div class="picsum-img-wrapper">
+                      <img src="./assets/birra.jpg" alt="Random second slide">
+                    </div>
+                    <div class="carousel-caption">
+                      <p>"Prima o poi arriverà nella vita di ogni donna, un momento in cui l’unica cosa che può essere d’aiuto è una coppa di champagne."</p>
+                      <h4>Bette Davis</h4>
+                    </div>
+                  </ng-template>
+                  <ng-template ngbSlide>
+                    <div class="picsum-img-wrapper">
+                      <img src="./assets/cocktail.jpg" alt="Random third slide">
+                    </div>
+                    <div class="carousel-caption">
+                      <p>"Chi beve solo acqua ha un segreto da nascondere."</p>
+                      <h4>Charles Baudelaire</h4>
+                  </div>
+                </ng-template>
+              </ngb-carousel>
+            </div>
+    </div>
+  </div> 
+</div>

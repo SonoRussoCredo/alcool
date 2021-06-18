@@ -1,0 +1,12 @@
+<section class="contenitore">
+    <div class="container">
+        <div class="row">
+           <div class="col-4 pt-5 pet" *ngFor = "let nonalcool of nonalcolici">           
+                    <div class="cardina">
+                         <a [routerLink]="['/non-alcolici', nonalcool.idDrink]">{{nonalcool.strDrink}}</a><br>
+                         <img src="{{nonalcool.strDrinkThumb}}" alt="">
+                    </div>
+           </div>
+        </div>
+    </div>
+</section>

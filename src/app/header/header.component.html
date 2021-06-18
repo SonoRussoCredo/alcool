@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions] ="{exact: true}"   class="navbar-brand m-3 p-2" href="#">Roma - Milano</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse m-2" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto m-2">
+      <li class="nav-item">
+        <a  routerLink="/alcolici" routerLinkActive="active" class="nav-link" >Alcolici <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/non-alcolici" routerLinkActive="active" class="nav-link" >Non Alcolici</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/drink" routerLinkActive="active" class="nav-link" >Drink</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/cocktail" routerLinkActive="active" class="nav-link" >Cocktail</a>
+      </li>
+    </ul>
+  </div>
+</nav>

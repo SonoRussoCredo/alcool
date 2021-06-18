@@ -1,0 +1,12 @@
+<section class="contenitore">
+    <div class="container">
+        <div class="row">
+           <div class="col-4 pt-5 pet" *ngFor = "let drinks of drink">           
+                    <div class="cardina">
+                         <a [routerLink]="['/drink', drinks.idDrink]">{{drinks.strDrink}}</a><br>
+                         <img src="{{drinks.strDrinkThumb}}" alt="">
+                    </div>
+           </div>
+        </div>
+    </div>
+</section >

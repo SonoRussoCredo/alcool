@@ -1,0 +1,13 @@
+<section class="contenitore">
+    <div class="container">
+        <div class="row ">
+           <div class="col-4 pt-5 pet" *ngFor = "let alcool of alcolici">           
+                    <div class="cardina">
+                         <a [routerLink]="['/alcolici', alcool.idDrink]">{{alcool.strDrink}}</a><br>
+                         <img src="{{alcool.strDrinkThumb}}" alt="">
+                    </div>
+           </div>
+        </div>
+    </div>
+</section >  
+<div class="alert alert-danger" *ngIf="errors"></div>

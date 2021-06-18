@@ -1,0 +1,23 @@
+.containercarosello{
+    background-image: url(/assets/sfondocarosello.jpg) ;
+    width: 100%;
+    height: 100vh;
+}
+#carosello img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#carosello{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+}
+
+p {
+    font-style: italic;
+    font-size: 1.5rem;
+    text-shadow: 10px;
+}

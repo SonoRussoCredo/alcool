@@ -1,0 +1,12 @@
+.navbar a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: white;
+}
+.navbar{
+    background-color: black;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
